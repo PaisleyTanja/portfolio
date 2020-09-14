@@ -1,0 +1,125 @@
+@charset "UTF-8";
+/***** Analygous Milestone project  *****/
+
+html, body{
+    font-family: 'source sans pro',sans-serif;
+    }
+ 
+/***** Head  *****/
+    .full-width{
+      width: 1277px;
+      margin: auto;
+      overflow: auto;
+    }
+    .half-width{
+      width: 600px;
+      float:left;
+    }
+
+/***** Header and hero image *****/
+#purple{
+    background-image: url('../img/purple-stars.jpeg');
+    background-size: cover;
+    height: 800px;
+  }
+h1{
+    font-family: 'Raleway', sans-serif;
+    font-weight: 800;
+    font-size: 60px;
+    color: #ffffff;
+    padding-top: 225px;
+    text-align:center;
+  }
+  h2{
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400;
+    font-size: 48px;
+    color: #ffffff; 
+    text-align:center;
+    padding: 50px;
+  }
+
+/***Portfolio***/
+#portfolio .full-width{
+    font-family: 'Raleway', sans-serif;
+    font-weight: 800;
+    font-size: 15px;
+    color: #9857c7;  
+}
+/***right column portfolio***/
+h3{
+    font-size: 36px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+#pickings{
+float: left;
+margin: 150px;
+}
+#austin{
+float: left;
+
+margin: 150px;
+}
+#cards{
+float: left;
+clear: left;
+margin: 150px;
+}
+/***** About me  *****/  
+.full-width #about{
+    background-color: #8000ff;
+    color: #ffffff;
+}
+
+#headshot{
+    width: 390px;
+    height: 340px;
+    float: left;
+    padding-left: 100px;
+}
+
+#about {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 800;
+    font-size: 15px;
+    color: #ffffff;
+}
+ 
+    
+/***** Let's connect- contact *****/
+footer{
+    padding: 50px 0;
+    background-color: #400080;
+    height: 348px;
+    color: #ffffff;
+}
+
+ /*** Let's connect***/ 
+.full-width h3{
+    text-align: center
+}
+#connect{
+    font-size: 36px;
+}
+
+ /*** h5 = contact me & follow me headers***/ 
+h5{
+    padding-bottom: 30px;
+}
+.half-width .contact{
+    text-align: center;
+    font-size: 24px;
+}
+
+.half-width #follow-me {
+    font-size: 24px;
+    text-align: center;
+}
+#linkedin{
+    margin-right: 30px;
+}
+#github{
+
+}
+
